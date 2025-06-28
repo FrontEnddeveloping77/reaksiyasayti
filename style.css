@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    overflow:unset;
+    background: url(https://deseraipromt-byuo.netlify.app/static/media/32b0c6c2-f433-49e5-b783-7c29531cba56.c5d5ac49a644b435f7cc.png) no-repeat center/cover;
+}
+
+.text{
+    width: auto;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    text-shadow: 0px 4px 20px rgba(62, 62, 62, 0.719);
+    color: white;
+}
+
+.text:hover{
+    text-shadow: 0 5px 34px rgba(0, 0, 0, 0.719);
+}
+
+header nav{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    z-index: 1000;
+    position: fixed;
+    color: #fff;
+    border-radius: 0 0 16px 16px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.719);
+    backdrop-filter: blur(12px);
+}
+
+header nav .text:nth-child(2){
+    margin-left: 500px;
+}
+
+header nav p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+main{
+    width: auto;
+    height: auto;
+    z-index: 1;
+    overflow: auto;
+    margin-top: 120px;
+}
+
+main .first{
+    width: 100%;
+    height: 642px;
+    padding-left: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+main .first .texts{
+    width: 590px;
+    height: 100%;
+}
+
+main .first h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+main .first p{
+    color: white;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+main .first button{
+    width: 311px;
+    height: 66px;
+    font-size: 26px;
+    background: #ffffff26;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+main .first button:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+
+main .first .images{
+    width: 885px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+main .first .images img{
+    width: 400px;
+    height: 600px;
+    border: 2px solid white;
+}
+
+.second{
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+    display: flex;
+}
+
+.second >h1{
+    color: orangered;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.second .box{
+    width: 1382px;
+    height: 320px;
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.second .box .textss{
+    color: white;
+    width: 822px;
+    text-align: left;
+}
+
+.second .box .textss h1{
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.second .box .textss p{
+    font-size: 16px;
+    width: 570px;
+    margin-bottom: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.second .box .textss button{
+    width: 205px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    border: .8px solid white;
+    font-size: 20px;
+    color: white;
+}
+
+.second .box .textss button:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 1s;
+}
+
+.second .box img{
+    width: 480px;
+    height: 280px;
+    border-radius: 24px;
+}
+
+.third{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 80px;
+}
+
+.third .div{
+    width: 897px;
+    height: auto;
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 40px;
+}
+
+.third .div h1{
+    font-size: 38px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.third .div h2{
+    font-size: 24px;
+    color: #00FFF7;
+    margin-top: 40px;
+}
+
+.third .div p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.third .div ul{
+    color: white;
+    padding-left: 20px;
+}
+
+.third .div ul li{
+    font-size: 17px;
+    margin-top: 12px;
+}
+
+.fourth{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 80px;
+}
+
+.fourth .div{
+    width: 897px;
+    height: auto;
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 40px;
+}
+
+.fourth .div h1{
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 20px;
+}
+
+.fourth .div p{
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 15px;
+}
+
+.fourth .div ul{
+    color: white;
+    padding-left: 22px;
+}
+
+.fourth .div ul li{
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.fourth .div ul li span{
+    color: #00FFF7;
+    cursor: pointer;
+}
+
+.fourth .div ul li a{
+    text-decoration: none;
+}
+
+.fifth{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 80px;
+}
+
+.fifth .divs{
+    width: 897px;
+    height: auto;
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.fifth .divs h1{
+    font-size: 38px;
+}
+
+.fifth .divs p{
+    margin-bottom: 30px;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.fifth a{
+    text-decoration: none;
+}
+
+.fifth .divs .div{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.fifth .divs .p:last-child{
+    margin-top: 25px;
+}
+
+.fifth .divs .div:hover{
+    transform: scale(1.03);
+    transition: .5s;
+}
+
+.fifth .divs .div p{
+    font-size: 17px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    margin-top: 12px;
+}
+
+.fifth .divs .div p:hover{
+    text-decoration: underline
+}
+
+.fifth .divs .div h3{
+    color: #00FFF7;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
